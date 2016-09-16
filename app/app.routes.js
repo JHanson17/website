@@ -7,14 +7,14 @@ window.angular.module('main').config(['$stateProvider', '$urlRouterProvider', fu
     $stateProvider
     	.state('home', {
             url: '/home',
-            templateUrl: 'components/home/homeView.html'
+            templateUrl: 'app/components/home/homeView.html'
         })
         .state('projects', {
             url: '/projects',
-            templateUrl: 'components/projects/projectsView.html'
+            templateUrl: 'app/components/projects/projectsView.html'
         })
         .state('contact', {
             url: '/contact',
-            templateUrl: 'components/contact/contactView.html'
+            templateUrl: 'app/components/contact/contactView.html'
         })
 }]);
