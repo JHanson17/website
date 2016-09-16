@@ -1,4 +1,4 @@
-window.angular.module('emojis').config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
+window.angular.module('main').config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
     'use strict';
 
     $urlRouterProvider.otherwise('/home');
