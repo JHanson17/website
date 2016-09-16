@@ -1,0 +1,18 @@
+<div ng-controller="HomeController.js">
+	<div id="skills">
+		<h1>About</h1>
+		<p></p>
+	</div>
+	<div id="education">
+		<h1>Education</h1>
+		<div ng-repeat='school in schools'>
+			<span>• {{school}}</span>
+		</div>
+	</div>
+	<div id="experience">
+		<h1>Experience</h1>
+		<div ng-repeat='business in businesses'>
+			<span>• {{business}}</span>
+		</div>
+	</div>
+</div>
