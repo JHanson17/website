@@ -1,0 +1,198 @@
+﻿/*
+
+  Elements: Bare HTML elements
+  Since Bootstrap is being used,
+  most of these are overwriting
+  those styles.
+
+*/
+
+::-moz-selection {
+	background: #1C57A5;
+	color: #FFFFFF;
+}
+
+::selection {
+	background: #1C57A5;
+	color: #FFFFFF;
+}
+
+body {
+	-webkit-backface-visibility: hidden;
+	font-family: Montserrat, Gotham, Helvetica Neue, Helvetica, Arial, Verdana, sans-serif !important;
+	font-weight: 300;
+	background-color: transparent !important;
+}
+
+p,
+li,
+span {
+	font-size: 18px;
+}
+
+h4 {
+	font-size: .95em;
+	font-weight: 400;
+}
+
+a:hover {
+	color: #287EED;
+	transition: .2s ease-in-out all;
+}
+
+a {
+	color: #1C57A5;
+	transition: .2s ease-in-out all;
+	cursor: pointer;
+}
+
+svg {
+	max-width: 100%;
+}
+
+.caption {
+	margin-top: -.7em;
+}
+
+.caption h3 {
+	margin-bottom: .05em;
+}
+
+/*
+
+  Components: Specific components that
+  can form an object, and can have other
+  components inside them
+
+  Namespace: c-
+
+  Except for the restyling of Bootstrap
+  classes.
+
+*/
+
+.c-link__indicator:after {
+	color: inherit;
+	content: " ▸";
+}
+
+/*
+
+  Trumps: Utility and helper classes
+  that overrride everything else
+
+  Utility Namespace: u-
+  Theme Namespace: t-
+  Stateful Namespaces: is- has-
+
+*/
+
+.u-col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.u-pull-left {
+    float: left;
+}
+
+.u-text-shadow--white {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
+}
+
+.u-ta-center {
+    text-align: center !important;
+}
+
+.u-ta-right {
+    text-align: right;
+}
+
+.u-serif {
+    font-family: Lora, Celeste, Georgia, Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, serif !important;
+}
+
+.u-mt-yuge {
+    margin-top: 148px;
+}
+
+.u-mt-xxl {
+    margin-top: 96px;
+}
+
+.u-mt-xl {
+    margin-top: 64px;
+}
+
+.u-mt-lg {
+    margin-top: 32px;
+}
+
+.u-mt-boot {
+    margin-top: 20px;
+}
+
+.u-mt-md {
+    margin-top: 16px;
+}
+
+.u-mt-sm {
+    margin-top: 8px;
+}
+
+.u-mt-none {
+    margin-top: 0 !important;
+}
+
+.u-mb-xxl {
+    margin-bottom: 96px;
+}
+
+.u-mb-xl {
+    margin-bottom: 64px;
+}
+
+
+.u-mb-lg {
+    margin-bottom: 32px;
+}
+
+.u-mb-md {
+    margin-bottom: 16px;
+}
+
+.u-mb-sm {
+    margin-bottom: 8px;
+}
+
+.u-am-med {
+    margin: 16px;
+}
+
+.u-pt-md {
+    padding-top: 16px;
+}
+
+.u-pt-lg {
+    padding-top: 32px;
+}
+
+.u-ap-med {
+    padding: 16px;
+}
+
+.u-pb-sm {
+    padding-bottom: 8px;
+}
+
+.u-pb-lg {
+    padding-bottom: 32px;
+}
+
+.u-pb-lglg {
+    padding-bottom: 42px;
+}
+
+.u-ptb-lg {
+    padding: 3em 0;
+}

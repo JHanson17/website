@@ -1,0 +1,49 @@
+﻿{
+  "work": [
+    {
+      "id": "1",
+      "title": "Technical Intern",
+      "company": "General-Electric (GE) Lighting",
+      "timePeriod": "Summer 2015",
+      "description1": "Wrote a Perl script that automated the retrieval of asset data (gateway, software, and networking information) from numerous servers.",
+      "description2": "Wrote a Perl script that integrated the asset data with the company’s CMDB database to create a single source of truth for all information associated with every node associated with the CMDB.",
+      "description3": "Contributed to the creation of a Python webcrawler that searches the web for information on competing company products."
+    },
+    {
+      "id": "2",
+      "title": "Database Entry, Co-Op",
+      "company": "The Right Thing - An ADP Company",
+      "timePeriod": "Summer 2014",
+      "description1": "Processed incoming (mailed-in) I-9s for multiple companies to be automatically processed electronically into their I-9 database.",
+      "description2": "Converted 80 – 120 scanned I-9s daily from the I-9 database to electronic I-9s and transferred them to a database synced between The Right Thing and the respected companies.",
+      "description3": "Completed independent projects that involved searching/researching through the synced database for employee forms and information."
+    }
+  ],
+  "awards": [
+    {
+      "title": "Secretary of the Association of Computing Machinery",
+      "year": "2014",
+      "description": "Assisted in teaching ACM club of roughly 26 students about raspberry pi and arranged groups to work on projects associating it."
+    },
+    {
+      "title": "Co-Founder of The Game Design and Production Club",
+      "year": "2014",
+      "description": "Recruited other enthusiastic students for production of mods and games."
+    },
+    {
+      "title": "Lead Graphic Designer of Enactus",
+      "year": "2014",
+      "description": "Designed a t-shirt logo for the club’s 5k run and organized a group of designers for the club’s fundraising coloring book."
+    },
+    {
+      "title": "Captain of The University of Findlay Soccer Team",
+      "year": "2014",
+      "description": ""
+    },
+    {
+      "title": "Great Lakes Intercollegiate Athletic Conference All-Academic Excellence",
+      "year": "(2013, 2014, 2015)",
+      "description": ""
+    }
+  ]
+}

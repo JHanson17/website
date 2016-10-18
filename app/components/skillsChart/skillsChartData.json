@@ -1,0 +1,20 @@
+﻿{
+  "charts": [
+    {
+      "id": "1",
+      "title": "Programming and Scripting Languages",
+      "labels": [ "C#", "C++", "HTML", "CSS", "JavaScript", "AngularJS", "SQL", "Python", "Perl" ],
+      "data": [
+        [ 70, 70, 60, 40, 60, 40, 60, 60, 40 ]
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Software",
+      "labels": [ "Visual Studios", "Git Bash", "Microsoft SQL Server", "Unreal Engine", "Unity", "Linux", "Photoshop", "Illustrator" ],
+      "data": [
+        [ 70, 50, 55, 40, 40, 20, 65, 65 ]
+      ]
+    }
+  ]
+}

@@ -1,25 +1,39 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
    
    <head>
       <meta charset="utf-8" />
       <title>Jordan Hanson</title>
-      <!--<link href="css/style.css" rel="stylesheet" type="text/css"/>-->
+
+      <link rel="stylesheet" href="assets/css/third-party/animate.min.css">
+      <link rel="stylesheet" href="assets/css/third-party/bootstrap.min.css">
+
+      <link href="assets/css/style.css" rel="stylesheet"/>
+      <link href="assets/css/header.css" rel="stylesheet"/>
+      <link href="assets/css/home.css" rel="stylesheet" />
 
       <script src="assets/libs/angular.min.js"></script>
       <script src="assets/libs/angular-ui-router.js"></script>
       <script src="assets/libs/ui-bootstrap-tpls-2.1.3.min.js"></script>
+      <script src="assets/libs/Chart.min.js"></script>
+      <script src="assets/libs/angular-chart.min.js"></script>
 
       <script src="app/app.module.js"></script>
       <script src="app/app.routes.js"></script>
       <script src="app/components/home/homeController.js"></script>
       <script src="app/components/projects/projectsController.js"></script>
       <script src="app/components/contact/contactController.js"></script>
-      <script src="app/shared/header/headerDirective.js"></script>
+      <script src="app/components/skillsChart/skillsChartController.js"></script>
+      <script src="app/shared/header/headerController.js"></script>
+      
+      <script src="app/components//skillsChart/skillsChartService.js"></script>
+      <script src="app/components/home/homeService.js"></script>
+
+      <base href="/" />
    </head>
    
    <body ng-app="main">
-      <!--<ng-include src='"app/shared/headerView.html"'></ng-include>-->
-      <div id='main' ui-view></div>
+      <ng-include src='"app/shared/header/headerView.html"'></ng-include>
+      <div id='main' class="u-navbar-padtophack" ui-view></div>
    </body>
 </html>

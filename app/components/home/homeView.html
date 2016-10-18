@@ -1,12 +1,19 @@
 <div ng-controller="HomeController">
-	<div>This is my Home page!</div>
-	<div id="skills">
-		<h1>About</h1>
-	</div>
-	<div id="education">
-		<h1>Education</h1>
-	</div>
-	<div id="experience">
-		<h1>Experience</h1>
-	</div>
+    <div class="animated delay--one-sec fadeIn">
+        <div class="container u-mb-xxl u-mt-xxl">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="page-header">Hello and Welcome.</h3>
+                    <p>Let me introduce myself. My name is Jordan Hanson. I am a 22 year old recent graduate from the University of Findlay, where I obtained a Bachelor's of Science in Computer Science and a Bachelor's of Art in Graphic Design. During these four years I also played soccer for the university and was voted captain for one year. Now I take the work ethic and knowledge I built from my experiences and strive to become a programming legend.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="http://placehold.it/450x300">
+                </div>
+            </div>
+            <div>
+                <h3 class="page-header">Skills</h3>
+                <ng-include src='"app/components/skillsChart/skillsChart.html"'></ng-include>
+            </div>
+        </div>
+    </div>
 </div>

@@ -1,35 +1,23 @@
-<div ng-controller='HeaderController'>
-	<div id="header_icons" class="row text-center">
-    	<div class="col-12-xl">
+<div ng-controller='HeaderController' class="o-header">
+	<div class="row text-center o-header__text">
+        <div class="col-md-9 o-header__left-text">
+            <span>Jordan Hanson's Portfolio | temp@temp.com</span>
+        </div>
+    	<div class="col-md-3">
 	    	<div class="u-w-24">
-				<div>
-					<a ui-sref="home">
-						<div>
-							<!--<img ng-click="activate()" ng-src="{{listIcons[listActive].src}}"/>-->
-						</div>
-						Home
-					</a>
-				</div>
+				<a ui-sref="home">
+					Home
+				</a>
 			</div>
 	    	<div class="u-w-24">
-	    		<div>
-	    			<a ui-sref="projects">
-	    				<div>
-		    				<!--<img ng-click="activateGroups()" ng-src="{{groupsIcons[groupsActive].src}}"/>-->
-		    			</div>
-		    			Projects
-		    		</a>
-	    		</div>
+	    		<a ui-sref="projects">
+		    		Projects
+		    	</a>
 	    	</div>
 			<div class="u-w-24">
-				<div>
-					<a ui-sref="contact">
-						<div>
-							<!--<img ng-click="activateSettings()" ng-src="{{settingsIcons[settingsActive].src}}"/>-->
-						</div>
-						Contact
-					</a>
-				</div>
+				<a ui-sref="contact">
+					Contact
+				</a>
 			</div>
 		</div>
 	</div>
